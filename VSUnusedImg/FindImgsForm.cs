@@ -45,6 +45,7 @@ namespace JitbitSoftware.VSUnusedImg
                         || filename.EndsWith(".cshtml")
                         || filename.EndsWith(".css")
                         || filename.EndsWith(".js")
+			|| filename.EndsWith(".vb")
                         || filename.EndsWith(".master"))
                     {
                         codefiles.Add(filename);
